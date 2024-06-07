@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web player</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/05d0c74567.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="#">
+</head>
+<body>
+  <header>
+    <button>
+      <img src="/icons/day.png" alt="light-mode">
+    </button>
+  </header>
+  <div class="container">
+    <div class="music-player tag1">
+      <nav>
+        <div class="menu">
+          <button>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="list">
+            <ul>
+              <i class="fa-solid fa-compact-disc"></i>
+              SONGS  
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <img src="/tracks-images/bussin.jpg"  class="song-img tag2" >
+      <h1 id="track-name">Bussin'</h1>
+      <p id="artist-name">TWISTED</p>
+      <audio id="song" src="/tracks/BUSSIN.mp3" type="audio/mpeg">
+      </audio>     
+      <input type="range" value="0" id="progress">
+
+      <div class="controls">
+        <div>
+          <button class="back"><i class="fa-solid fa-backward"></i></button>
+        </div>
+        <div>
+          <button id="ctrlIcon"><i class="fa-solid fa-play"></i></button>
+        </div>
+        <div>
+          <button class="for"><i class="fa-solid fa-forward"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p id="copy">
+      © Song: TWISTED - BUSSIN' [NCS Release]
+      Music provided by NoCopyrightSounds
+      Free Download/Stream: http://ncs.io/BUSSIN
+      Watch: http://ncs.lnk.to/BUSSINAT/youtube
+    </p>
+    <p>
+      © Made By Kaushlendrasinh
+    </p>
+  </footer>
+  <script type="module" src="/scripts/script.js"></script>
+  <script type="module" src="/scripts/colorPicker.js"></script>
+  <script src="/scripts/theme.js"></script>
+
+</body>
+</html>

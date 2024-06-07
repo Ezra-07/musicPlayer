@@ -1,0 +1,4 @@
+dark
+https://coolors.co/palette/11151c-151b25-19212e-212d40-273246-2c374b-313c51-343f54-364156-485265
+light
+https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
