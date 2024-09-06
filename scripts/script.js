@@ -63,22 +63,22 @@ let track_list = [
   {
     name: "Bussin'",
     artist: "TWISTED",
-    image: "/tracks-images/bussin.jpg",
-    path: "/tracks/BUSSIN.mp3",
+    image: "/musicPlayer/tracks-images/bussin.jpg",
+    path: "/musicPlayer/tracks/BUSSIN.mp3",
     copy: "Song: TWISTED - BUSSIN' [NCS Release] Music provided by NoCopyrightSounds Free Download/Stream: http://ncs.io/BUSSIN Watch: http://ncs.lnk.to/BUSSINAT/youtube",
   },
   {
     name: "BassFace",
     artist: "Jonth",
-    image: "/tracks-images/Bass-Face.jpg",
-    path: "/tracks/BassFace.mp3",
+    image: "/musicPlayer/tracks-images/Bass-Face.jpg",
+    path: "/musicPlayer/tracks/BassFace.mp3",
     copy: "Song: Jonth - Bass Face [NCS Release] Music provided by NoCopyrightSounds Free Download/Stream: Watch:",
   },
   {
     name: "UFO",
     artist: "Rameses B",
-    image:"/tracks-images/ufo.jpg",
-    path: "/tracks/UFO.mp3",
+    image:"/musicPlayer/tracks-images/ufo.jpg",
+    path: "/musicPlayer/tracks/UFO.mp3",
     copy: "Song: Rameses B - UFO [NCS Release] Music provided by NoCopyrightSounds Free Download/Stream: http://ncs.io/UFO Watch: http://ncs.lnk.to/UFOAT/youtube",
   },
 ];
