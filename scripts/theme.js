@@ -20,7 +20,7 @@ let themeFromStorage = localStorage.getItem("theme") || "dark";
 console.log(themeFromStorage);
 let m;
 if (themeFromStorage === "dark") {
-  mode.innerHTML = '<img src="/icons/day.png" alt="light-mode"></img>';
+  mode.innerHTML = '<img src="/musicPlayer/icons/day.png" alt="light-mode"></img>';
   if (sheet.cssRules[0].selectorText === ":root") {
     sheet.deleteRule(0);
   }
@@ -31,7 +31,7 @@ if (themeFromStorage === "dark") {
   m=1;
   console.log("hello 1");
 } else {
-  mode.innerHTML = '<img src="/icons/moon.png" alt="light-mode"></img>';
+  mode.innerHTML = '<img src="/musicPlayer/icons/moon.png" alt="light-mode"></img>';
   if (sheet.cssRules[0].selectorText === ":root") {
     sheet.deleteRule(0);
   }
@@ -54,7 +54,7 @@ mode.addEventListener("click", () => {
   }
 });
 function darkMode(){
-  mode.innerHTML = '<img src="/icons/day.png" alt="light-mode"></img>';
+  mode.innerHTML = '<img src="/musicPlayer/icons/day.png" alt="light-mode"></img>';
   if (sheet.cssRules[0].selectorText === ":root") {
     sheet.deleteRule(0);
   }
@@ -65,7 +65,7 @@ function darkMode(){
   localStorage.setItem("theme","dark");
 }
 function lightMode(){
-  mode.innerHTML = '<img src="/icons/moon.png" alt="dark-mode"></img>';
+  mode.innerHTML = '<img src="/musicPlayer/icons/moon.png" alt="dark-mode"></img>';
   if (sheet.cssRules[0].selectorText === ":root") {
     sheet.deleteRule(0);
   }
